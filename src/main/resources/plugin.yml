@@ -1,0 +1,20 @@
+name: SimpleMachines
+version: '${version}'
+main: eu.virtusdevelops.simplemachines.SimpleMachines
+api-version: 1.18
+prefix: SimpleMachines
+authors: [ NeutralPlasma ]
+description: Automatization machines
+
+
+depend:
+  - "Vault"
+
+softdepend:
+  - "Multiverse-Core"
+
+
+commands:
+  simplemachines:
+    permission: simplemachines.command.main
+    aliases: [sm, smachines]

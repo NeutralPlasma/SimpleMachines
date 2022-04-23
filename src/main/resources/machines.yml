@@ -1,0 +1,49 @@
+machines:
+  simple_miner:
+    max_size: 5
+    max_speed: 5
+    max_fuel: 15000
+    speeds: # how fast machine works at specific level (lower number = faster)
+      -1: 1000
+      5: 100
+      4: 200
+      3: 300
+      2: 400
+      1: 500
+    prices: # prices for upgrades.
+      size:
+        1: 1000
+        2: 25000
+        3: 75000
+        4: 180000
+        5: 500000
+      speed:
+        1: 1000
+        2: 25000
+        3: 175000
+        4: 1180000
+        5: 1500000
+  simple_crafter:
+    max_size: 1
+    max_speed: 5
+    max_fuel: 15000
+    speeds: # how fast machine works at specific level (lower number = faster)
+      -1: 1000
+      5: 100
+      4: 200
+      3: 300
+      2: 400
+      1: 500
+    prices: # prices for upgrades.
+      size:
+        1: 1000
+        2: 25000
+        3: 75000
+        4: 180000
+        5: 500000
+      speed:
+        1: 1000
+        2: 25000
+        3: 175000
+        4: 1180000
+        5: 1500000
